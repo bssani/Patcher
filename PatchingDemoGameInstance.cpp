@@ -124,4 +124,4 @@ void UPatchingDemoGameInstance::OnDownloadComplete(bool bSuccess)
         OnPatchComplete.Broadcast(false);
     }
 }
-[출처] (해결)chunk downloader 실습하고 있습니다. (언리얼 엔진 공식 카페 (Unreal Engine)) | 작성자 Reader다
+
