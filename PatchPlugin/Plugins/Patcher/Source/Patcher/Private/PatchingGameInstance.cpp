@@ -99,8 +99,7 @@ void UPatchingGameInstance::GetLoadingProgress(int32& BytesDownloaded, int32& To
     }
     else
     {
-        BytesDownloaded = 100.0f;
-        TotalBytesToDownload = 100.0f;
+        DownloadPercent = 100.0f;
     }
 
     if (MountPercent != 0 || TotalChunksToMount != 0)
@@ -109,8 +108,7 @@ void UPatchingGameInstance::GetLoadingProgress(int32& BytesDownloaded, int32& To
     }
     else
     {
-        ChunksMounted = 100.0f;
-        TotalChunksToMount = 100.0f;
+        MountPercent = 100.0f;
     }
 }
 
